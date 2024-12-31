@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Trend- India's best growing company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-------             header section          --------------->
+
+     <header>
+        <div class="header1">
+            <h1> Tech Trends</h1>
+        </div>
+        <div class="header2">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#ourser">Our Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#carrier">Carriers</a></li>
+                <li><a href="#contact">Contact Us</a></li> 
+            </ul>
+        </div>
+    </header>
+
+     <!-------             header section          --------------->
+
+    <div class="sect">
+
+    <!--------             slide show             ----------------->    
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="first.jpeg" style="width:100%; height: 600px;">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="webd.jpg" style="width:100%;height: 600px;">
+              <div class="text">...</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="sm.png" style="width:100%; height: 600px;">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+
+     <!--------             slide show             ----------------->    
+
+     <!-------------------------------      our services         ----------------------------------------->
+     
+     <div id="ourser" class="sect1">Our Services</div>
+     <div class="service">
+        <p>
+            <strong>Digital Marketing: Empower Your Online Presence </strong><br> 
+            Digital marketing is the strategy of promoting products, services, or brands through 
+            online channels to reach and engage target audiences. It encompasses a variety of tactics, 
+            including:
+                    Search Engine Optimization (SEO): Improving website visibility in search engine results 
+                    to attract organic traffic.
+                    Social Media Marketing: Using platforms like Facebook, Instagram, and LinkedIn to engage with audiences,
+                    build brand awareness, and drive sales.
+                    Content Marketing: Creating valuable, relevant content to attract and retain customers.
+                    Email Marketing: Sending personalized messages to nurture relationships and drive conversions.
+                    Pay-Per-Click (PPC): Paid advertising strategies, like Google Ads, that drive instant traffic.
+        </p>
+     </div>
+     <div class="service">
+        <p>
+            <strong>Graphic Designing: Crafting Visual Experiences</strong><br> 
+            Graphic designing is the art of creating visual content to communicate messages and captivate audiences. 
+            It involves a blend of creativity, technology, and strategy to produce designs that resonate with target 
+            audiences. Key elements include:
+            Brand Identity Design: Developing logos, color schemes, and typography to define and reinforce brand image.
+            Web & UI Design: Designing user-friendly, aesthetically pleasing websites and app interfaces for seamless user 
+            experiences.
+            Print Design: Creating brochures, business cards, and posters that convey messages in a tangible format.
+            Social Media Graphics: Designing engaging visuals to capture attention on social media platforms..
+        </p>
+     </div>
+     <div class="service">
+        <p>
+            <strong>Social Media Marketing: Connect, Engage, and Grow</strong><br>
+            Social media marketing leverages platforms like Facebook, Instagram, Twitter, and LinkedIn to 
+            promote your brand, engage with audiences, and drive growth. Key aspects include:
+            Content Creation: Crafting engaging posts, videos, and stories tailored to your audience.
+            Community Engagement: Building relationships through comments, shares, and direct interactions.
+            Targeted Advertising: Running ads that reach specific demographics and interests to boost visibility and sales.
+            Analytics & Optimization: Tracking performance to refine strategies and maximize results.
+        </p>
+     </div>
+     <div class="service">
+        <p>
+            <strong>Web Development: Building the Future of Online Experiences</strong><br>
+            Web development involves the creation, design, and maintenance of websites and web applications 
+            to provide seamless and dynamic online experiences. Key components include:
+
+            Front-End Development: Crafting the visible part of websites (HTML, CSS, JavaScript) to ensure an engaging user experience.
+            Back-End Development: Managing server-side logic, databases, and APIs to power website functionality.
+            Responsive Design: Ensuring websites look great and function well on all devices, from desktops to smartphones.
+            E-commerce Development: Building secure and scalable online stores for businesses to sell products or services.
+        </p>
+     </div>
+     <div class="service">
+        <p>
+            <strong>SEO Optimization: Boost Your Visibility Online</strong><br>
+            Search Engine Optimization (SEO) is the process of improving your website's visibility in search engine results
+            to attract more organic traffic. Key components include:
+
+            Keyword Research: Identifying relevant search terms that target audiences are using.
+            On-Page SEO: Optimizing content, titles, meta tags, and images to align with search engine algorithms.
+            Technical SEO: Enhancing website speed, mobile-friendliness, and site architecture for better performance.
+            Link Building: Acquiring high-quality backlinks to improve site authority and ranking.
+        </p>
+     </div>
+
+    <!---------------------------      our services         ---------------------------> 
+
+
+     <!---------------------------      About Us         ---------------------------> 
+
+    <div id="about" class="sect1">About Us</div>
+
+    <div class="about" style="margin: auto;">
+      <img src="dm.jpeg" alt="dm">
+      <p class="aboutp">Hello ! Its me Sanwar Imam designer of this page. I am from Varanasi, Uttar Pradesh. 
+        I have done my B-tech in Information technology from Noida Institute of Engineering and technology Greater Noida
+        With a passion for technology and innovation, We have created this platform to deliver a seamless 
+        and engaging user experience.</p>
+    </div> 
+    <div style="display: flex; padding: 100px;">
+    <div class="about">
+      <img src="dm.jpeg" alt="dm">
+      <p class="aboutp">Hello ! Its me Sanwar Imam designer of this page. I am from Varanasi, Uttar Pradesh. 
+        I have done my B-tech in Information technology from Noida Institute of Engineering and technology Greater Noida
+        With a passion for technology and innovation, We have created this platform to deliver a seamless 
+        and engaging user experience.</p>
+    </div>
+    <div class="about" style="margin-left: 25%;">
+      <img src="dm.jpeg" alt="dm">
+      <p class="aboutp">Hello ! Its me Sanwar Imam designer of this page. I am from Varanasi, Uttar Pradesh. 
+        I have done my B-tech in Information technology from Noida Institute of Engineering and technology Greater Noida
+        With a passion for technology and innovation, We have created this platform to deliver a seamless 
+        and engaging user experience.</p>
+    </div>
+    </div>
+  
+    
+     <!---------------------------      About Us          ---------------------------> 
+
+     <!---------------------------      carrier          ---------------------------> 
+
+     <div id="carrier" class="divcar">
+     <div style="width: 50%; font-size: 40px; padding-left: 8%;"> <h2>We are hiring...</h2></div>
+     <div style="width: 50%; margin: auto; background-color: #797373;">
+      <form action="" method="">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="subject">Mobile no.</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Interests</label>
+          <select id="services" name="services">
+            <option value="Digital Marketing">Digital Marketing</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Graphic Design">Graphic Design</option>
+            <option value="SEO">SEO</option>
+            <option value="Android Development">Android Development</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+     </div>
+     
+    
+     </div>
+
+     <!---------------------------      carrier       ---------------------------> 
+
+    </div>
+    <footer id="contact">
+      
+        <h2>Contact Us</h2>
+        <p>Email: imams211098@gmail.com</p>
+        <p>Phone: 8840324236</p>
+        <p>Telephone: 011-2566646654</p>
+        <p>Address: CIDS Building, BHU, Lanka, Varanasi</p>
+        <p>&copy; 2024 Tech Trends. All rights reserved.</p>
+  
+    </footer>
+</body>
+</html>

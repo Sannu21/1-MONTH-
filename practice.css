@@ -1,0 +1,153 @@
+#fhead{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(112, 144, 232);
+    display: flex;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+h3{
+    width: 30%;
+    padding-left: 5%;
+}
+.header2 {
+    width: 70%;
+    
+}
+ul {
+    list-style-type: none;  
+    overflow: hidden;
+}
+li {
+    float: left;
+    padding-left: 65px;
+}
+li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header{
+    text-align: center;
+}
+.about{
+    height: 350px;
+    display: flex;
+}
+.abp1{
+    width: 70%;
+    font-style: italic;
+    padding: 75px;
+    font-size: 25px;
+    word-spacing: 10px;
+}
+.abp2{
+    width: 30%;
+}
+.prod{
+    height: 350px;
+    display: flex;
+    padding: 2%;
+}
+.prd1{
+    width: 20%;
+    margin-left: 4%;
+}
+.prd1 img:hover{
+    transform: scale(1.1);   
+    transition: transform 0.1s;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form-group button {
+    padding: 10px 15px;
+    background-color: rgb(112, 144, 232);;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #218838;
+}  
+footer {
+    height: 200px;
+    max-width: auto;
+    background-color: rgb(112, 144, 232);; 
+    color: black;
+    margin-top: 30px;
+    display: flex;
+}
+.f1{
+    width: 30%;
+    padding: 10px;
+    padding-left: 50px;
+}
+.f2{
+    width: 70%;
+    border: 1 px solid rgb(204, 36, 36);
+}
+.footer-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+.footer-gallery img {
+    width: 150px;       
+    height: auto;       
+    border-radius: 5px; 
+}
+
+.footer-gallery img:hover {
+    transform: scale(1.1);   /* Optional: Adds hover effect to enlarge the image */
+    transition: transform 0.3s;
+}
+
+#scrollTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 99;
+    background-color: #0c0909;
+    color: white;
+    border: none;
+    border-radius: 25%;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: background-color 0.3s ease;
+}
+
+#scrollTopBtn:hover {
+    background-color: #555;
+}

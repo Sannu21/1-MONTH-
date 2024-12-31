@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <div id="fhead">
+       <h3>Fashion-Mania</h3>
+    <div class="header2">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#ab">About Us</a></li>
+            <li><a href="#pro">Products</a></li>
+            <li><a href="#con">Contact Us</a></li>
+            <li><a href="#enq">Enquiery</a></li>
+             
+        </ul>
+    </div>
+    </div>
+    <img src="webd.jpg" height="300px" width="100%">
+    <!------------------ head section--------------------------->
+
+    <header id="ab"><h1>About us</h1></header>
+    <div class="about">
+        <div class="abp1">
+            Sanwar Imam
+            Sanwar Imam, a BTech graduate of the class of 2024 from Varanasi, 
+            is the developer behind this page. With a passion for technology and 
+            innovation, Sanwar has created this platform to deliver a seamless and engaging user experience.
+            Sanwar Imam
+            Sanwar Imam, a BTech graduate of the class of 2024 from Varanasi, 
+            is the developer behind this page. With a passion for technology and 
+            innovation, Sanwar has created this platform to deliver a seamless and engaging user experience.
+        </div>
+        <div class="abp2">
+            <img src="sm.png" height="100%" width="100%">
+        </div>
+    </div>
+    <!----------------about us-------------------------->
+
+    <header id="pro"><h1>Products</h1></header>
+    <div class="prod">
+        <div class="prd1">
+            <img src="main2.jpeg" height="80%" width="100%">
+            <p style="text-align: center;">Red Heart</p>
+        </div>
+        <div class="prd1">
+            <img src="main2.jpeg" height="80%" width="100%">
+            <p style="text-align: center;">Red Heart</p>
+        </div>
+        <div class="prd1">
+            <img src="main2.jpeg" height="80%" width="100%">
+            <p style="text-align: center;">Red Heart</p>
+        </div>
+        <div class="prd1">
+            <img src="main2.jpeg" height="80%" width="100%">
+            <p style="text-align: center;">Red Heart</p>
+        </div>
+    </div>
+    <!-------------------product--------------------------->
+
+    <div class="contact-form" id="con">
+        <h2>Contact Us</h2>
+        <form action="/submit_form" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+    
+            <div class="form-group">
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </div>
+    <!-------------------contact-------------------------->
+
+    <footer id="enq">
+        <div class="f1">
+        <p>Email: imams211098@gmail.com</p>
+        <p>Phone: 8840324236</p>
+        <p>Telephone: 011-2566646654</p>
+        <p>Address: CIDS Building, BHU, Lanka, Varanasi</p>
+        <p>&copy; 2024 Fashion-Mania. All rights reserved.</p>
+        </div>
+
+        <div class="f2">
+            <div class="footer-gallery">
+                <img src="dm.jpeg" alt="Image 1">
+                <img src="first.jpeg" alt="Image 2">
+                <img src="main.jpeg" alt="Image 3">
+                <img src="main2.jpeg" alt="Image 4">
+                <img src="mainn.jpeg" alt="Image 5">
+            </div>
+        </div>
+    </footer>
+
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">⬆</button>
+
+    <!-- JavaScript for Scroll to Top Functionality -->
+    <script>
+        // Scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Show the button when the user scrolls down 200px
+        window.onscroll = function() {
+            const button = document.getElementById('scrollTopBtn');
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        };
+    </script>
+
+</body>
+</html>

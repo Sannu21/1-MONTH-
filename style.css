@@ -1,0 +1,184 @@
+header {
+    height: 100px;
+    max-width: auto;
+    display: flex;
+    background-color: #333;
+    color: azure;
+}
+
+.header1 {
+    width: 30%;
+    margin: auto;
+    padding-left: 7%;
+}
+
+.header2 {
+    width: 70%;
+    margin: auto;
+    padding-left: 20%;
+}
+
+ul {
+    list-style-type: none;  
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+.sect{
+    height:auto;
+    max-width: auto;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.service {
+  height: 300px;
+  border: 2px solid black;
+  font-size: 25px;
+  font-family: cursive;
+  padding: 15px;
+  word-spacing: 10px;
+}
+
+.sect1 {
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.about {
+  height: 400px;
+  width: 500px;
+ 
+}
+.about img{
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  margin-left: 28%;
+  margin-top: 5%;
+}
+.aboutp {
+  font-family: cursive;
+  padding: 20px;
+  word-spacing: 10px;
+}
+.divcar {
+  height: 400px;
+  font-family: cursive;
+  display: flex;
+  padding: 30px;
+}
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input, 
+.form-group select {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.form-group button {
+  padding: 10px 15px;
+  background-color: #0f1811;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-group button:hover {
+  background-color: #218838;
+}
+footer {
+    height: 300px;
+    max-width: auto;
+    background-color: black; 
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+}
